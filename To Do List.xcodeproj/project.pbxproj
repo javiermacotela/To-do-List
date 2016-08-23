@@ -15,6 +15,7 @@
 		367220401D6CBE210054E9BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3672203E1D6CBE210054E9BA /* LaunchScreen.storyboard */; };
 		3672204B1D6CBE210054E9BA /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3672204A1D6CBE210054E9BA /* To_Do_ListTests.swift */; };
 		367220561D6CBE210054E9BA /* To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367220551D6CBE210054E9BA /* To_Do_ListUITests.swift */; };
+		367220661D6CBF290054E9BA /* ToDoListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367220651D6CBF290054E9BA /* ToDoListManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		367220511D6CBE210054E9BA /* To Do ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To Do ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		367220551D6CBE210054E9BA /* To_Do_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITests.swift; sourceTree = "<group>"; };
 		367220571D6CBE210054E9BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367220651D6CBF290054E9BA /* ToDoListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3672203C1D6CBE210054E9BA /* Assets.xcassets */,
 				3672203E1D6CBE210054E9BA /* LaunchScreen.storyboard */,
 				367220411D6CBE210054E9BA /* Info.plist */,
+				367220651D6CBF290054E9BA /* ToDoListManager.swift */,
 			);
 			path = "To Do List";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				367220381D6CBE200054E9BA /* SecondViewController.swift in Sources */,
+				367220661D6CBF290054E9BA /* ToDoListManager.swift in Sources */,
 				367220341D6CBE200054E9BA /* AppDelegate.swift in Sources */,
 				367220361D6CBE200054E9BA /* FirstViewController.swift in Sources */,
 			);
